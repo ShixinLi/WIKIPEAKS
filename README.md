@@ -1,2 +1,2 @@
 # Whatever-OZS
-Osvaldo Bulos,Zewei Liu,Shixin Li
+Osvaldo Bulos, Zewei Liu, Shixin Li
