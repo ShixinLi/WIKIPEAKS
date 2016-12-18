@@ -1,0 +1,18 @@
+[
+  {
+     "Name": "Daily Views Step",
+     "Type": "STREAMING",
+     "ActionOnFailure": "TERMINATE_CLUSTER",
+     "Args": [
+         "-files",
+         "s3://wikipedia-scripts/revised_map.py,s3://wikipedia-scripts/revised_reduce.py",
+         "-mapper",
+         "revised_map.py",
+         "-reducer",
+         "revised_reduce.py",
+         "-input",
+         "s3://wikipedia-pageviews/2016-01-02/",
+         "-output",
+         "s3://wikipedia-dly-pageviews/2016-01-02/"]
+  }
+]
